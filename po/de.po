@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-12-10 14:42+0000\n"
-"PO-Revision-Date: 2026-10-04 18:52+0200\n"
+"PO-Revision-Date: 2026-10-04 19:05+0200\n"
 "Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
 "Language: de\n"
@@ -561,7 +561,7 @@ msgstr "Neuen Schnappschuss erstellen …"
 #: src/Core/Main.vala:3256
 msgid "Creating pre-restore snapshot from system subvolumes..."
 msgstr ""
-"Snapshots vor der Wiederherstellung aus den System-Subvolumes erstellen ..."
+"Snapshots vor der Wiederherstellung aus den System-Subvolumes erstellen …"
 
 #: src/Core/Main.vala:3870
 msgid "Critical Error"
