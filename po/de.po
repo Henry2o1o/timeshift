@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2025-12-10 14:42+0000\n"
-"PO-Revision-Date: 2026-10-04 18:33+0200\n"
+"PO-Revision-Date: 2026-10-04 18:52+0200\n"
 "Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German <de@li.org>\n"
 "Language: de\n"
@@ -310,11 +310,11 @@ msgstr "Ausgewählten Schnappschuss auswählen"
 
 #: src/Core/Main.vala:2814
 msgid "Building file list..."
-msgstr "Dateiliste wird erstellt …"
+msgstr "Dateiliste erstellen …"
 
 #: src/Core/Main.vala:1527
 msgid "Calculating required disk space..."
-msgstr "Erforderlicher Speicherplatz wird berechnet …"
+msgstr "Erforderlichen Speicherplatz berechnen …"
 
 #: src/Utility/Gtk/CustomMessageDialog.vala:156
 #: src/Utility/Gtk/CustomMessageDialog.vala:161 src/Utility/GtkHelper.vala:93
@@ -362,7 +362,7 @@ msgstr "Wiederherstellungsaktionen werden geprüft (Trockenlauf)"
 
 #: src/Core/Main.vala:3055
 msgid "Checking file systems for errors..."
-msgstr "Dateisystem wird auf Fehler geprüft …"
+msgstr "Dateisystem auf Fehler prüfen …"
 
 #: src/Gtk/BackupBox.vala:95 src/Gtk/RestoreBox.vala:130
 #: src/Gtk/RsyncLogBox.vala:390
@@ -552,7 +552,7 @@ msgstr "Schnappschuss erstellen …"
 
 #: src/Core/Main.vala:1721
 msgid "Creating new backup..."
-msgstr "Neue Sicherung wird erstellt …"
+msgstr "Neue Sicherung erstellen …"
 
 #: src/Core/Main.vala:1566
 msgid "Creating new snapshot..."
@@ -644,7 +644,7 @@ msgstr "Gelöschtes Unterlaufwerk"
 
 #: src/Gtk/DeleteBox.vala:58
 msgid "Deleting Snapshots..."
-msgstr "Schnappschüsse werden gelöscht …"
+msgstr "Schnappschüsse löschen …"
 
 #: src/Core/Subvolume.vala:141
 #, c-format
@@ -751,7 +751,7 @@ msgstr "Gerätename oder -nummer eingeben (a=Abbrechen)"
 #: src/Utility/Device.vala:1477
 #, c-format
 msgid "Enter passphrase to unlock '%s'"
-msgstr "Bitte Passphrase eingeben, um »%s« zu entsperren"
+msgstr "Bitte Passphrase eingeben, um '%s' zu entsperren"
 
 #: src/AppConsole.vala:778
 #, c-format
@@ -1565,13 +1565,13 @@ msgstr ""
 #: src/AppGtk.vala:145
 msgid "Please re-run the application as admin (using 'sudo' or 'su')"
 msgstr ""
-"Die Anwendung bitte als Systemverwalter neu starten (mittels »sudo« oder "
-"»su«)"
+"Die Anwendung bitte als Systemverwalter neu starten (mittels 'sudo' oder "
+"'su')"
 
 #: src/AppConsole.vala:110
 msgid "Please run the application as admin (using 'sudo' or 'su')"
 msgstr ""
-"Die Anwendung bitte als Systemverwalter starten (mittels »sudo« oder »su«)"
+"Die Anwendung bitte als Systemverwalter starten (mittels 'sudo' oder 'su')"
 
 #: src/Core/Main.vala:2501
 msgid "Please save your work and close all applications."
@@ -1627,7 +1627,7 @@ msgstr "Abfrage abgeschlossen"
 
 #: src/Core/Main.vala:4065
 msgid "Querying subvolume info..."
-msgstr "Unterlaufwerksinformation wird abgefragt …"
+msgstr "Unterlaufwerksinfos abgefragen …"
 
 #: src/Gtk/SnapshotBackendBox.vala:77
 msgid "RSYNC"
@@ -1653,7 +1653,7 @@ msgstr "GRUB2-Bootloader neu installieren?"
 
 #: src/Core/Main.vala:2614
 msgid "Re-installing GRUB2 bootloader..."
-msgstr "GRUB2-Bootloader wird neu installiert …"
+msgstr "GRUB2-Bootloader neu installieren …"
 
 #: src/Gtk/BootOptionsBox.vala:120
 msgid "Re-installs the GRUB2 bootloader on the selected device."
@@ -1698,7 +1698,7 @@ msgstr "Cron-Aufgabe entfernt"
 #: src/Core/Main.vala:3934
 #, c-format
 msgid "Removed mount directory: '%s'"
-msgstr "Entferntes eingehängtes Verzeichnis: »%s«"
+msgstr "Entferntes eingehängtes Verzeichnis: '%s'"
 
 #: src/Core/Snapshot.vala:557
 msgid "Removed snapshot"
@@ -2131,7 +2131,7 @@ msgid ""
 "Snapshot '%s' is being used by the system and cannot be deleted. Restart the "
 "system to activate the restored snapshot."
 msgstr ""
-"Schnappschuss »%s« wird von System benutzt und kann nicht gelöscht werden. "
+"Schnappschuss '%s' wird von System benutzt und kann nicht gelöscht werden. "
 "Bitte das System neu starten, um den wiederhergestellten Schnappschuss zu "
 "aktivieren."
 
@@ -2146,7 +2146,7 @@ msgstr "Schnappschussebene"
 
 #: src/Gtk/MainWindow.vala:743
 msgid "Snapshot deletion in progress..."
-msgstr "Schnappschuss wird gerade gelöscht …"
+msgstr "Schnappschuss löschten läuft …"
 
 #: src/Core/SnapshotRepo.vala:446
 #, c-format
@@ -2352,7 +2352,7 @@ msgstr "Symbolischen Verknüpfung aktualisiert"
 
 #: src/Core/Main.vala:2689
 msgid "Syncing file systems..."
-msgstr "Dateisysteme werden synchronisiert …"
+msgstr "Dateisysteme synchronisieren …"
 
 #: src/Core/Main.vala:1642 src/Core/Main.vala:2859 src/Core/Main.vala:3108
 msgid "Syncing files with rsync..."
@@ -2487,7 +2487,7 @@ msgstr "Unbekannter Wert für Option --tags angegeben"
 #: src/Utility/Device.vala:1413 src/Utility/Device.vala:1529
 #, c-format
 msgid "Unlocked device is mapped to '%s'"
-msgstr "Entsperrtes Gerät wird »%s« zugeordnet"
+msgstr "Entsperrtes Gerät wird '%s' zugeordnet"
 
 #: src/Utility/Device.vala:1528
 msgid "Unlocked successfully"
@@ -2531,11 +2531,11 @@ msgstr ""
 
 #: src/Core/Main.vala:2672
 msgid "Updating GRUB menu..."
-msgstr "GRUB-Menü wird aktualisiert …"
+msgstr "GRUB-Menü aktualisieren …"
 
 #: src/Core/Main.vala:2883
 msgid "Updating bootloader configuration..."
-msgstr "Bootloader-Konfiguration wird aktualisiert …"
+msgstr "Bootloader-Konfiguration aktualisieren …"
 
 #: src/Utility/Device.vala:1978
 #, c-format
